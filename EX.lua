@@ -1,3 +1,5 @@
+-- Original supposedly by "saucekid"
+
 options.Hands = false          -- If you want hands in R6 (You need hats)
  options.RightHand = "Racing Helmet Flames"
  options.LeftHand = "Racing Helmet USA"
@@ -12,7 +14,7 @@ local ScriptContext = game:GetService("ScriptContext");
 local VRService = game:GetService("VRService");
 local VirtualUser = game:GetService("VirtualUser");
 local RunService = game:GetService("RunService");
-local HttpService = game:GetService("HttpService");
+local Service = game:GetService("HttpService");
 local HapticService = game:GetService("HapticService");
 local UserInputService = game:GetService("UserInputService");
 local CurrentCamera = workspace.CurrentCamera
@@ -77,7 +79,7 @@ LocalPlayer.OnTeleport:Connect(function(State)
             options.RightHand = "Racing Helmet Flames"
             options.LeftHand = "Racing Helmet USA"
             
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/sauceVR/main/extra/ROrilla.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/CryptedVR/RBEX/Gorilla/EX.lua"))()
         ]])
     end
 end)
