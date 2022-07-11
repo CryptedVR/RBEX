@@ -1,3 +1,5 @@
+-- !!THIS IS THE CONTENT YOU NEED TO EXECUTE TO START!! --
+
 options = {}
 
 options.HeadScale = 2          -- Headscale of camera (Does not change actual head size)
